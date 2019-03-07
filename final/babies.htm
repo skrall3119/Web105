@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Baby Portaits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<style>
+    body, h1{
+        font-family: 'Concert One', cursive;
+    }
+    .sidenav {
+        background-color: #FB88B6;
+    }
+
+    .sidenav a {
+        color: #fff958
+    }
+    .column img {
+        border: 3px solid #FB88B6;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 8px;
+
+</style>
+
+<body style="background-image: url(babies/background.jpg)">
+    <span style="font-family: 'Concert One', cursive; color: #FB88B6; font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <div class="picture_grid">
+        <div class=babies_title>
+            <h1><i class="material-icons" style="font-size: 30px;">child_friendly</i> Babies and Children <i class="material-icons" style="font-size: 30px;">child_friendly</i></h1>
+            <div id="sideNav" class="sidenav">
+                <nav>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.htm"><i class="material-icons">child_friendly</i> Home</a>
+                    <a href="zack.htm"><i class="material-icons">child_friendly</i> Zack Baumgartner</a>
+                    <a href="portraits.htm"><i class="material-icons">child_friendly</i> Portraits</a>
+                    <a href="babies.htm"><i class="material-icons">child_friendly</i> Babies</a>
+                    <a href="special_effects.htm"><i class="material-icons">child_friendly</i> Special Effects</a>
+                </nav>
+            </div>
+        </div>
+        <div class="babies_summary">
+            <p><i class="material-icons">child_friendly</i> Youth fleets with every moment, and should not be taken for granted. And we must capture it in every way possible. With a child’s favorite toy, or their security blanket. But one thing that will never surpass is the beauty of photos. For one day to look back on, in an album full of embarrassment, the ones that your mother cherishes, but the ones you absolutely hate. Photos tell stories of simpler times, and longer days.</p>
+        </div>
+        <div class="babies_images" style="align-self: center">
+            <div class="row">
+                <div class="column">
+                    <img src="babies/baby1.jpg" alt="little boy looking at something">
+                    <img src="babies/baby12.jpg" alt="naked baby with santa hat">
+                    <img src="babies/baby2.jpg" alt="close up baby with hood">
+                    <img src="babies/baby5.jpg" alt="sleeping infant in someones hands">
+                    <img src="babies/baby7.jpg" alt="baby with santa hat and round ornament">
+                    <img src="babies/baby13.jpg" alt="baby with santa hat and round ornament">">
+                </div>
+                <div class="column">
+                    <img src="babies/baby10.jpg" alt="baby with cubs baseball">
+                    <img src="babies/baby11.jpg" alt="infant drinking a bottle with caption: little man comin at ya">
+                    <img src="babies/baby15.jpg" alt="baby holding cubs ball">
+                    <img src="babies/child1.jpg" alt="girl sitting near a field">
+                    <img src="babies/children2.jpg" alt="girl and boy looking through a fence">
+                    <img src="babies/baby18.jpg" alt="baby sitting on a bed">
+                </div>
+                <div class="column">
+                    <img src="babies/baby16.jpg" alt="infant sleeping in hospital">
+                    <img src="babies/baby20.jpg" alt="infant with cubs blanket">
+                    <img src="babies/baby17.jpg" alt="baby with ornament">
+                    <img src="babies/baby19.jpg" alt="sleeping baby close up">
+                    <img src="babies/baby23.jpg" alt="baby on bed">
+                </div>
+                <div class="column">
+                    <img src="babies/baby3.jpg" alt="sleeping newborn after birth">
+                    <img src="babies/baby6.jpg" alt="sleeping baby held by someone">
+                    <img src="babies/baby8.jpg" alt="baby on the bed">
+                    <img src="babies/baby9.jpg" alt="baby swimming in the pool">
+                    <img src="babies/children1.jpg" alt="children running on a bridge">
+                    <img src="babies/baby4.jpg" alt="baby sitting down">
+                </div>
+            </div>
+        </div>
+        <div class="baby_footer">
+            <p style="color: #FFF958">&copy; Alex Janci and Nataya Peacock 2018</p>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sideNav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+</body>
+
+</html>

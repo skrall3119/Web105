@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zack Baumgartner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    body,
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .sidenav {
+        background-color: black;
+    }
+
+    .sidenav a {
+        color: #1db954
+    }
+
+    .column img {
+        border: 3px solid #1db954
+    }
+
+</style>
+
+<body style="background-color: #191414">
+    <span style="font-family: 'Roboto Mono', monospace; color: #1db954; font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <div id="sideNav" class="sidenav">
+        <nav>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.htm"><i style="font-size:24px" class="fa">&#xf13d;</i> Home</a>
+            <a href="zack.htm"><i style="font-size:24px" class="fa">&#xf13d;</i> Zack Baumgartner</a>
+            <a href="portraits.htm"><i style="font-size:24px" class="fa">&#xf13d;</i> Portraits</a>
+            <a href="babies.htm"><i style="font-size:24px" class="fa">&#xf13d;</i> Babies</a>
+            <a href="special_effects.htm"><i style="font-size:24px" class="fa">&#xf13d;</i> Special Effects</a>
+        </nav>
+    </div>
+    <div class="picture_grid">
+        <div class=zack_title>
+            <h1 style="color: white; font-size: 36px;"><i style="font-size:24px" class="fa">&#xf13d;</i> Zack Baumgartner <i style="font-size:24px" class="fa">&#xf13d;</i></h1>
+        </div>
+        <div class="zack_summary">
+            <p><i style="font-size:24px" class="fa">&#xf13d;</i> Music has a way of influencing people. Years and years later the same artists are still relevant. But they wouldn’t be as memorable without photography. It’s an amazing journey I’ve been granted to be on, watching a young hungry artist tear up the stage. To watch him grow from a small local artist to being known state wide for his band warms my heart. To see that he has the power to make his dreams come true, and I’m just here to capture his adventures as he grows in his endeavors.</p>
+        </div>
+        <div class="zack_images" style="align-self: center">
+            <div class="row">
+                <div class="column">
+                    <img src="zack/zack1.jpg" alt="Zack on stage smiling">
+                    <img src="zack/zack2.jpg" alt="Zack singing with friends around">
+                    <img src="zack/zack3.jpg" alt="Zack facing the audience that is smiling and singing along">
+                    <img src="zack/zack4.jpg" alt="Zack smiling after a set">
+                </div>
+                <div class="column">
+                    <img src="zack/zack5.jpg" alt="Zack's black acoustic guitar with a purple head">
+                    <img src="zack/zack6.jpg" alt="Zack singing">
+                    <img src="zack/zack7.jpg" alt="More zack singing">
+                    <img src="zack/zack8.jpg" alt="Zacks just chillin">
+                </div>
+                <div class="column">
+                    <img src="zack/zack9.jpg" alt="Zacks full band playing a show">
+                    <img src="zack/zack10.jpg" alt="Zack's bassist playing">
+                    <img src="zack/zack11.jpg" alt="Zack's bassist and Drummer">
+                    <img src="zack/zack12.jpg" alt="Zack's bassist hugging someone">
+                </div>
+                <div class="column">
+                    <img src="zack/zack13.jpg" alt="Zack's bassist">
+                    <img src="zack/zack14.jpg" alt="Zacks drummer after a set">
+                    <img src="zack/zack15.jpg" alt="Zacks drummer playing a song">
+                </div>
+            </div>
+        </div>
+        <div class="zack_footer">
+            <p>&copy; Alex Janci and Nataya Peacock 2018</p>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sideNav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+</body>
+
+</html>

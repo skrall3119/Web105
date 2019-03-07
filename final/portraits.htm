@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portraits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<style>
+    body, h1{
+        font-family: 'Cinzel', serif;
+    }
+    .sidenav{
+        background-color: #666565;
+    }
+    .sidenav a{
+        color: white;
+    }
+    .column img{
+        border: 3px solid black;
+    }
+</style>
+
+<body style="background-color: #474545">
+    <span style="font-family: 'Cinzel', serif; color: white; font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <div id="sideNav" class="sidenav">
+        <nav>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.htm"><i class="material-icons">camera_alt</i> Home</a>
+            <a href="zack.htm"><i class="material-icons">camera_alt</i> Zack Baumgartner</a>
+            <a href="portraits.htm"><i class="material-icons">camera_alt</i> Portraits</a>
+            <a href="babies.htm"><i class="material-icons">camera_alt</i> Babies</a>
+            <a href="special_effects.htm"><i class="material-icons">camera_alt</i> Special Effects</a>
+        </nav>
+    </div>
+    <div class="picture_grid">
+        <div class=portraits_title>
+            <h1 style="color: white; font-size: 36px;"><i class="material-icons">camera_alt</i> Portraits <i class="material-icons">camera_alt</i></h1>
+        </div>
+        <div class="portraits_summary">
+            <p><i class="material-icons">camera_alt</i> A frame in time, that can be shared for generations. Photos are a way of telling information for years to come. Portraits show style, modern technology, and family history. But on top of all that, photos show a story, that will last a lifetime. From grainy black and white faces that are hard to decipher, to now clear as day skin texture that you could almost feel with your eyes. Portraits have a way of making a person feel. A persons eyes say one thing while their setting tells a different story. But that’s just the beauty of interpretation.</p>
+        </div>
+        <div class="portraits_images">
+            <div class="row">
+                <div class="column">
+                    <img src="portraits/portraits1.png" alt="An animal skull of sorts">
+                    <img src="portraits/portraits2.jpg" alt="Nataya laying on a bed with just her forehead showing">
+                    <img src="portraits/portraits3.jpg" alt="Nataya's white boots">
+                    <img src="portraits/portraits4.jpg" alt="A shot of a city">
+                    <img src="portraits/portraits5.jpg" alt="picture of railroads in the fall">
+                </div>
+                <div class="column">
+                    <img src="portraits/portraits6.jpg" alt="record player with a vinyl">
+                    <img src="portraits/portraits7.jpg" alt="A wire wrap">
+                    <img src="portraits/portraits8.jpg" alt="Old dusty guitar">
+                    <img src="portraits/portraits9.jpg" alt="beautiful pink flowers">
+                    <img src="portraits/portraits10.jpg" alt="white flowers">
+                </div>
+                <div class="column">
+                    <img src="portraits/portraits11.jpg" alt="different pink flowers">
+                    <img src="portraits/portraits12.jpg" alt="a wheat field">
+                    <img src="portraits/portraits13.jpg" alt="monkey house at the zoo">
+                    <img src="portraits/portraits14.jpg" alt="meerkat">
+                    <img src="portraits/portraits15.jpg" alt="Giraffe">
+                </div>
+                <div class="column">
+                    <img src="portraits/portraits16.png" alt="someone holding dandelions">
+                    <img src="portraits/portraits17.jpg" alt="stream in the forest">
+                    <img src="portraits/portraits18.jpg" alt="portrait of girl on bridge">
+                    <img src="portraits/portraits19.jpg" alt="girl by the stream">
+                    <img src="portraits/portraits20.jpg" alt="girl holding a flower">
+                    <img src="portraits/portraits21.jpg" alt="girl with red velvet hood">
+                </div>
+            </div>
+        </div>
+        <div class="portrait_footer">
+            <p>&copy; Alex Janci and Nataya Peacock 2018</p>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("sideNav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>
+</body>
+
+</html>
