@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Shrikhand', cursive;
+}
+body{
+    background-color: #F7FE43
+}
+header{
+    text-align: center;
+}
+.box{
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 0.5px solid #D7Ccc8;
+    background: white;
+}
+.color{
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+#babyduckyellow{
+    background-color: #F7FE43
+}
+#facebookblue{
+    background-color: #4580D2
+}
+#salmonred{
+    background-color: #FF7343
+}
+#lavenderpurple{
+    background-color: #A63FD3
+}
+#dandelionyellow{
+    background-color: #E6EE14
+}

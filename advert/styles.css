@@ -1,0 +1,22 @@
+body{
+    background-image: url("background.jpg")
+}
+
+div {
+    max-width: 60%;
+    margin: 5px 5px;
+    font-family: 'Shrikhand', cursive;
+    border: 5px outset #FF8315;
+    background-color: #6788E3;
+}
+header{
+    font-family: 'Shrikhand', cursive;
+}
+p{
+    color: #FFF627;
+    margin: 5px 5px;
+    font-size: 210%
+}
+ul {
+    color: #FFDF3B;
+}

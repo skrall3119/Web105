@@ -1,0 +1,16 @@
+body{
+    background-color: #EC0E19
+}
+.box{
+    min-height: 100px;
+    max-width: 960px;
+    background-color: #9FE10D;
+    border-radius: 15%;
+    border: 5px solid #1DC40C;
+    margin: 16px auto;
+    padding: 5px 5px 5px 5px;
+}
+img{
+    width: 45%;
+    height: 55%;
+}
